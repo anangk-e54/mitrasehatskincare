@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ProductsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,3 +23,21 @@ Route::view('/products','products');
 Route::view('/about','about');
 Route::view('/contact','contact');
 Route::view('/product/detail','homepage/productDetail');
+
+
+
+// Route::middleware('auth')->group(function () {
+
+    Route::get('/product',[ProductsController::class, 'index'])->name('productlist');
+    Route::get('/product/create',[ProductsController::class, 'create']);
+    Route::post('/product/store',[ProductsController::class, 'store']);
+    Route::get('/product/{product}',[ProductsController::class, 'show'])->name('productshow');
+    Route::post('/product/{product}',[ProductsController::class, 'update']);
+    Route::delete('/product/{product}',[ProductsController::class, 'destroy']);
+    
+    
+    Route::view('/contact','/contact');
+    
+    // });
+    
+    
