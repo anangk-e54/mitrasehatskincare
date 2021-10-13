@@ -34,7 +34,7 @@
             <div class="col-md-12">
                 <div class="section-heading">
                     <h2>Product List</h2>
-                    <a href="/products">ADD NEW PRODUCT >><i class="fa fa-angle-right"></i></a>
+                    <a href="/product/create">ADD NEW PRODUCT >><i class="fa fa-angle-right"></i></a>
                 </div>
             </div>
             @foreach( $products as $product )
@@ -46,6 +46,7 @@
                             <h4>{{ $product->name }}</h4>
                         </a>
                         <!-- <h6>$25.75</h6> -->
+                        <h5>IDR {{ $product->price }}</h5>
                         <p>{{ $product->description}}</p>
                         <ul class="stars">
                             <li><i class="fa fa-star"></i></li>
@@ -54,11 +55,11 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <span>IDR {{ $product->price }}</span>
+                        <!-- <span>IDR {{ $product->price }}</span> -->
                         <ul>
                             <li>
-                                <a href="/product/{{ $product->id }}" class="btn btn-rounded btn-primary btn-xs "><i
-                                        class="ti-flickr-alt"><span>&nbsp;View</span></i></a>
+                                <a href="/product/{{ $product->id }}"
+                                    class="btn btn-rounded btn-primary btn-xs ">View</a>
                             </li>
                             <li>
                                 <!-- <a href="/products/{{ $product->id }}/edit" class="btn btn-rounded btn-warning btn-xs " ><i class="ti-pencil-alt"><span>&nbsp;Edit</span></i></a> -->
@@ -68,8 +69,7 @@
                                     @method('delete')
                                     @csrf
                                     <button type="submit" class="btn btn-rounded btn-danger btn-xs"
-                                        onclick="return confirm('Are you sure Delete this Data?')"><i
-                                            class="ti-trash"></i><span>&nbsp;Delete</span></button>
+                                        onclick="return confirm('Are you sure Delete this Data?')">Delete</span></button>
                                 </form>
                             </li>
                         </ul>
