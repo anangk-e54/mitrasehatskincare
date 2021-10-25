@@ -19,7 +19,9 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::view('/products','products');
+
+Route::get('/products',[ProductsController::class, 'view']);
+// Route::view('/products','products');
 Route::view('/about','about');
 Route::view('/contact','contact');
 Route::view('/product/detail','homepage/productDetail');
@@ -31,7 +33,7 @@ Route::view('/product/detail','homepage/productDetail');
     Route::get('/product',[ProductsController::class, 'index'])->name('productlist');
     Route::get('/product/create',[ProductsController::class, 'create']);
     Route::post('/product/store',[ProductsController::class, 'store']);
-    Route::get('/product/{product}',[ProductsController::class, 'show'])->name('productshow');
+    Route::get('/product/{product}',[ProductsController::class, 'edit'])->name('editproduct');
     Route::post('/product/{product}',[ProductsController::class, 'update']);
     Route::delete('/product/{product}',[ProductsController::class, 'destroy']);
     
