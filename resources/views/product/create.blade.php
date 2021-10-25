@@ -59,7 +59,7 @@
                                 <fieldset>
                                     <input type="file" name="image1"
                                         class="form-control @error ('image1') is-invalid @enderror" id="image1"
-                                        value="{{ old('image1')}}">
+                                        value="{{ old('image1')}}  required=""">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
