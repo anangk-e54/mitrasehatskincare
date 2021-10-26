@@ -174,5 +174,48 @@ jQuery( document ).ready(function( $ ) {
 
             j.preventDefault();
         });
+
+
+         // ===================== Custom by AanangK =========================
+    
+   /*================================
+   Character limit + read more button
+    ==================================*/
+    
+    $(function() {
+
+        var maxLenght = 150;
+
+        $('.max-description').each(function() {
+
+            var text = $(this).text();
+            if (text.length > maxLenght) {
+
+                var begin = text.substr(0, maxLenght),
+                    end = text.substr(maxLenght);
+
+                $(this).html(begin)
+                    .append($('<a class="readmore"/>').html('...'))
+                    .append($('<div class="hidden" />').html(end));
+
+
+            }
+
+
+        });
+
+        $(document).on('click', '.readmore', function() {
+            // $(this).next('.readmore').fadeOut("400");
+            $(this).next('.hidden').slideToggle(400);
+        })
+
+
+    })
+    
  
+
+
+
 });
+
+

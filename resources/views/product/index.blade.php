@@ -47,7 +47,7 @@
                         </a>
                         <!-- <h6>$25.75</h6> -->
                         <h5>IDR {{ $product->price }}</h5>
-                        <p>{{ $product->description}}</p>
+                        <p class="max-description">{{ $product->description}}</p>
                         <ul class="stars">
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>

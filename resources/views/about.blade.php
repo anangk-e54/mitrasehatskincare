@@ -258,6 +258,11 @@
                 <div class="owl-clients owl-carousel">
                     <div class="client-item">
                         <img src="assets/images/client-01.png" alt="1">
+                        <div class="down-content text-center">
+                            <h6>Kate Town</h6>
+                            <span>General Manager</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                        </div>
                     </div>
 
                     <div class="client-item">

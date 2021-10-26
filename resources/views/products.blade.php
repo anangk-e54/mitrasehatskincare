@@ -44,7 +44,8 @@
                                         <h4>{{ $product->name }}</h4>
                                     </a>
                                     <!-- <h6>$16.75</h6> -->
-                                    <p>{{ $product->description }}</p>
+                                    <p class="max-description">{{ $product->description }}</p>
+                                    <a href="/product/{{ $product->id }}" class=" ">View more</a>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -52,7 +53,7 @@
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
-                                    <span>{{ $product->price }}</span>
+                                    <span>IDR {{ $product->price }}</span>
                                 </div>
                             </div>
                         </div>
