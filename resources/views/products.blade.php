@@ -45,7 +45,7 @@
                                     </a>
                                     <!-- <h6>$16.75</h6> -->
                                     <p class="max-description">{{ $product->description }}</p>
-                                    <a href="/product/{{ $product->id }}" class=" ">View more</a>
+                                    <a href="/product-detail/{{ $product->id }}" class=" ">View more</a>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>

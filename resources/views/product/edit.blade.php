@@ -33,24 +33,33 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <fieldset>
+                                    <label for="name">Product Name</label>
                                     <input name="name" type="text" class="form-control" id="name"
                                         placeholder="Product Name" required="" value="{{ $product->name }}">
                                 </fieldset>
                             </div>
                             <div class=" col-lg-12 col-md-12 col-sm-12">
                                 <fieldset>
-                                    <input name="category" type="text" class="form-control" id="category"
-                                        placeholder="Product Category" required="" value="{{ $product->category }}">
+                                    <label for="category">Product Category</label>
+                                    <select name="category" type="text" class="form-control" id="category"
+                                        placeholder="Product Category" required="">
+                                        <option value="{{ $product->category }}">{{ $product->category }}</option>
+                                        <option value="cream"> Cream </option>
+                                        <option value="facial"> Facial </option>
+                                        <option value="body"> Body </option>
+                                    </select>
                                 </fieldset>
                             </div>
                             <div class=" col-lg-12 col-md-12 col-sm-12">
                                 <fieldset>
+                                    <label for="price">Unit Price</label>
                                     <input name="price" type="number" class="form-control" id="price"
                                         placeholder="Price" required="" value="{{ $product->price }}">
                                 </fieldset>
                             </div>
                             <div class=" col-lg-12">
                                 <fieldset>
+                                    <label for="description">Product Description</label>
                                     <textarea name="description" rows="6" class="form-control" id="description"
                                         placeholder="Your description" required=""
                                         value="{{ $product->description }}">{{ $product->description }}</textarea>
@@ -59,6 +68,7 @@
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage1() }}" alt="">
                                 <fieldset>
+                                    <label for="image1">Change First Image</label>
                                     <input type="file" name="image1"
                                         class="form-control @error ('image1') is-invalid @enderror" id="image1"
                                         value="{{ $product->image1 }}">
@@ -67,6 +77,7 @@
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage2() }}" alt="">
                                 <fieldset>
+                                    <label for="image2">Change Second Image</label>
                                     <input type="file" name="image2"
                                         class="form-control @error ('image2') is-invalid @enderror" id="image2"
                                         value="{{ $product->image2 }}">
@@ -75,6 +86,7 @@
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage3() }}" alt="">
                                 <fieldset>
+                                    <label for="image3">Change Third Image</label>
                                     <input type="file" name="image3"
                                         class="form-control @error ('image3') is-invalid @enderror" id="image3"
                                         value="{{ $product->image3 }}">
@@ -83,6 +95,7 @@
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage4() }}" alt="">
                                 <fieldset>
+                                    <label for="image4">Change Fourth Image</label>
                                     <input type="file" name="image4"
                                         class="form-control @error ('image4') is-invalid @enderror" id="image4"
                                         value="{{ $product->image4 }}">
@@ -91,6 +104,7 @@
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage5() }}" alt="">
                                 <fieldset>
+                                    <label for="image5">Change Fifth Image</label>
                                     <input type="file" name="image5"
                                         class="form-control @error ('image5') is-invalid @enderror" id="image5"
                                         value="{{ $product->image5 }}">

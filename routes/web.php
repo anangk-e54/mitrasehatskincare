@@ -21,6 +21,7 @@ Route::get('/', function () {
 
 
 Route::get('/products',[ProductsController::class, 'view']);
+Route::get('/product-detail/{product}',[ProductsController::class, 'show']);
 // Route::view('/products','products');
 Route::view('/about','about');
 Route::view('/contact','contact');
