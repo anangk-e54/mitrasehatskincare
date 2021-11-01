@@ -212,6 +212,9 @@ jQuery( document ).ready(function( $ ) {
 
     })
     
+    /*================================
+   Image preview before upload
+    ==================================*/
  
     document.getElementById('readUrl').addEventListener('change', function(){
         if (this.files[0] ) {
@@ -224,6 +227,67 @@ jQuery( document ).ready(function( $ ) {
         }
       });
 
+    /*================================
+   Image preview before upload
+    ==================================*/
+ 
+    document.getElementById('readUrl1').addEventListener('change', function(){
+        if (this.files[0] ) {
+          var picture = new FileReader();
+          picture.readAsDataURL(this.files[0]);
+          picture.addEventListener('load', function(event) {
+            document.getElementById('uploadedImage1').setAttribute('src', event.target.result);
+            document.getElementById('uploadedImage1').style.display = 'block';
+          });
+        }
+      });
+
+
+/*================================
+   Image preview before upload
+    ==================================*/
+ 
+    document.getElementById('readUrl2').addEventListener('change', function(){
+        if (this.files[0] ) {
+          var picture = new FileReader();
+          picture.readAsDataURL(this.files[0]);
+          picture.addEventListener('load', function(event) {
+            document.getElementById('uploadedImage2').setAttribute('src', event.target.result);
+            document.getElementById('uploadedImage2').style.display = 'block';
+          });
+        }
+      });
+
+
+    /*================================
+   Image preview before upload
+    ==================================*/
+ 
+    document.getElementById('readUrl3').addEventListener('change', function(){
+        if (this.files[0] ) {
+          var picture = new FileReader();
+          picture.readAsDataURL(this.files[0]);
+          picture.addEventListener('load', function(event) {
+            document.getElementById('uploadedImage3').setAttribute('src', event.target.result);
+            document.getElementById('uploadedImage3').style.display = 'block';
+          });
+        }
+      });
+
+    /*================================
+   Image preview before upload
+    ==================================*/
+ 
+    document.getElementById('readUrl4').addEventListener('change', function(){
+        if (this.files[0] ) {
+          var picture = new FileReader();
+          picture.readAsDataURL(this.files[0]);
+          picture.addEventListener('load', function(event) {
+            document.getElementById('uploadedImage4').setAttribute('src', event.target.result);
+            document.getElementById('uploadedImage4').style.display = 'block';
+          });
+        }
+      });
 
 
 });

@@ -76,33 +76,41 @@
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <label for="image2">Second Image</label>
+                                    <label>Second Image</label>
+                                    <img id="uploadedImage1" src="#" alt="Uploaded Image1"
+                                        accept="image/png, image/jpeg" style="display:none;">
                                     <input type="file" name="image2"
-                                        class="form-control @error ('image2') is-invalid @enderror" id="image2"
+                                        class="form-control @error ('image2') is-invalid @enderror" id="readUrl1"
                                         value="{{ old('image2')}}">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <label for="image3">Third Image</label>
+                                    <label>Third Image</label>
+                                    <img id="uploadedImage2" src="#" alt="Uploaded Image2"
+                                        accept="image/png, image/jpeg" style="display:none;">
                                     <input type="file" name="image3"
-                                        class="form-control @error ('image3') is-invalid @enderror" id="image3"
+                                        class="form-control @error ('image3') is-invalid @enderror" id="readUrl2"
                                         value="{{ old('image3')}}">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <label for="image4">Fourth Image</label>
+                                    <label>Fourth Image</label>
+                                    <img id="uploadedImage3" src="#" alt="Uploaded Image3"
+                                        accept="image/png, image/jpeg" style="display:none;">
                                     <input type="file" name="image4"
-                                        class="form-control @error ('image4') is-invalid @enderror" id="image4"
+                                        class="form-control @error ('image4') is-invalid @enderror" id="readUrl3"
                                         value="{{ old('image4')}}">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <label for="image5">Fifth Image</label>
+                                    <label>Fifth Image</label>
+                                    <img id="uploadedImage4" src="#" alt="Uploaded Image4"
+                                        accept="image/png, image/jpeg" style="display:none;">
                                     <input type="file" name="image5"
-                                        class="form-control @error ('image5') is-invalid @enderror" id="image5"
+                                        class="form-control @error ('image5') is-invalid @enderror" id="readUrl4"
                                         value="{{ old('image5')}}">
                                 </fieldset>
                             </div>

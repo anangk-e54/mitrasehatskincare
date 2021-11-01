@@ -68,45 +68,55 @@
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage1() }}" alt="">
                                 <fieldset>
-                                    <label for="image1">Change First Image</label>
+                                    <label>Change First Image</label>
+                                    <img id="uploadedImage" src="#" alt="Uploaded Image" accept="image/png, image/jpeg"
+                                        style="display:none;">
                                     <input type="file" name="image1"
-                                        class="form-control @error ('image1') is-invalid @enderror" id="image1"
+                                        class="form-control @error ('image1') is-invalid @enderror" id="readUrl"
                                         value="{{ $product->image1 }}">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage2() }}" alt="">
                                 <fieldset>
-                                    <label for="image2">Change Second Image</label>
+                                    <label>Change Second Image</label>
+                                    <img id="uploadedImage1" src="#" alt="Uploaded Image" accept="image/png, image/jpeg"
+                                        style="display:none;">
                                     <input type="file" name="image2"
-                                        class="form-control @error ('image2') is-invalid @enderror" id="image2"
+                                        class="form-control @error ('image2') is-invalid @enderror" id="readUrl1"
                                         value="{{ $product->image2 }}">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage3() }}" alt="">
                                 <fieldset>
-                                    <label for="image3">Change Third Image</label>
+                                    <label>Change Third Image</label>
+                                    <img id="uploadedImage2" src="#" alt="Uploaded Image" accept="image/png, image/jpeg"
+                                        style="display:none;">
                                     <input type="file" name="image3"
-                                        class="form-control @error ('image3') is-invalid @enderror" id="image3"
+                                        class="form-control @error ('image3') is-invalid @enderror" id="readUrl2"
                                         value="{{ $product->image3 }}">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage4() }}" alt="">
                                 <fieldset>
-                                    <label for="image4">Change Fourth Image</label>
+                                    <label>Change Fourth Image</label>
+                                    <img id="uploadedImage3" src="#" alt="Uploaded Image" accept="image/png, image/jpeg"
+                                        style="display:none;">
                                     <input type="file" name="image4"
-                                        class="form-control @error ('image4') is-invalid @enderror" id="image4"
+                                        class="form-control @error ('image4') is-invalid @enderror" id="readUrl3"
                                         value="{{ $product->image4 }}">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <img src="{{  $product->getImage5() }}" alt="">
                                 <fieldset>
-                                    <label for="image5">Change Fifth Image</label>
+                                    <label>Change Fifth Image</label>
+                                    <img id="uploadedImage4" src="#" alt="Uploaded Image" accept="image/png, image/jpeg"
+                                        style="display:none;">
                                     <input type="file" name="image5"
-                                        class="form-control @error ('image5') is-invalid @enderror" id="image5"
+                                        class="form-control @error ('image5') is-invalid @enderror" id="readUrl4"
                                         value="{{ $product->image5 }}">
                                 </fieldset>
                             </div>
