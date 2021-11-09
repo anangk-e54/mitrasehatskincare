@@ -126,39 +126,35 @@
             <div class="col-md-4">
                 <ul class="accordion">
                     <li>
-                        <a>Accordion Title One</a>
+                        <a>Product Name</a>
                         <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester
-                                consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur
-                                adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti
-                                elite.</p>
+                            <p>>Product name is unique for each single product variant. Please make sure that each your
+                                product name isn't duplicated. Because if it's same, you can't update or add those new
+                                product.</p>
                         </div>
                     </li>
                     <li>
-                        <a>Second Title Here</a>
+                        <a>Product Category</a>
                         <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester
-                                consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur
-                                adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti
-                                elite.</p>
+                            <p>Select one of product category, it will be use for filter product by category on
+                                clientsite. if you have new product category please <a rel="nofollow"
+                                    href="https://wa.me/6282229211313" target="_blank">contact us</a> to add new product
+                                category.</p>
                         </div>
                     </li>
                     <li>
-                        <a>Accordion Title Three</a>
+                        <a>Unit Price</a>
                         <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester
-                                consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur
-                                adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti
-                                elite.</p>
+                            <p>Enter the unit price only integers without dot( . ) or comma( , ) separator. eg. "50000".
+                            </p>
                         </div>
                     </li>
                     <li>
-                        <a>Fourth Accordion Title</a>
+                        <a>Upload Image</a>
                         <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester
-                                consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur
-                                adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti
-                                elite.</p>
+                            <p>Please make sure that your image
+                                is rectagle, we recomended 1080px for best resolution and file size is less than 300kb
+                                for best load performace.</p>
                         </div>
                     </li>
                 </ul>
