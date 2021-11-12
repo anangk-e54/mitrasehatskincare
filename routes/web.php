@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\PromotionsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,7 @@ Route::get('/', function () {
 });
 
 
+Route::get('/',[PromotionsController::class, 'view']);
 Route::get('/products',[ProductsController::class, 'view']);
 Route::get('/product-detail/{product}',[ProductsController::class, 'show']);
 // Route::view('/products','products');
@@ -38,7 +40,14 @@ Route::view('/product/detail','homepage/productDetail');
     Route::post('/product/{product}',[ProductsController::class, 'update']);
     Route::delete('/product/{product}',[ProductsController::class, 'destroy']);
     
-    
+    Route::get('/promotion',[PromotionsController::class, 'index'])->name('promotionlist');
+    Route::get('/promotion/create',[PromotionsController::class, 'create']);
+    Route::post('/promotion/store',[PromotionsController::class, 'store']);
+    Route::get('/promotion/{promotion}',[PromotionsController::class, 'edit'])->name('editpromotion');
+    Route::post('/promotion/{promotion}',[PromotionsController::class, 'update']);
+    Route::delete('/promotion/{promotion}',[PromotionsController::class, 'destroy']);
+
+
     Route::view('/contact','/contact');
     
     // });

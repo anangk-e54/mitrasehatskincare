@@ -37,15 +37,16 @@
                     <a href="/products">view all products <i class="fa fa-angle-right"></i></a>
                 </div>
             </div>
+            @foreach( $promotions as $promotion )
             <div class="col-md-4">
                 <div class="product-item">
-                    <a href="#"><img src="assets/images/product_01.jpg" alt=""></a>
+                    <a href="#"><img src="{{  $promotion->getImage1() }}" alt=""></a>
                     <div class="down-content">
                         <a href="#">
-                            <h4>Tittle goes here</h4>
+                            <h4>{{ $promotion->name }}</h4>
                         </a>
-                        <h6>$25.75</h6>
-                        <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                        <!-- <h6>$25.75</h6> -->
+                        <p>{{ $promotion->description}}.</p>
                         <ul class="stars">
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
@@ -53,10 +54,11 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <span>Reviews (24)</span>
+                        <span>IDR {{ $promotion->price }}</span>
                     </div>
                 </div>
             </div>
+            @endforeach
             <div class="col-md-4">
                 <div class="product-item">
                     <a href="#"><img src="assets/images/product_02.jpg" alt=""></a>
