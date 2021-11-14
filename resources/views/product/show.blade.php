@@ -34,13 +34,16 @@
             </div>
             <div class="col-md-6">
                 <div class="left-content">
-                    <h4>IDR {{ $product->price }}</h4>
                     <p>{{ $product->description }}</p>
+                    <h4>IDR {{ $product->price }}</h4>
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li><a href="{{ $product->shopee_link}}" target="_blank"><i class="fas fa-shopping-bag"></i></a>
+                        </li>
+                        <li><a href="{{ $product->tokopedia_link}}" target="_blank"><i class="fas fa-store"></i></a>
+                        </li>
+                        <li><a href="{{ $product->lazada_link}}" target="_blank"><i class="fas fa-gem"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -64,10 +67,15 @@
                         <div class="hover-effect">
                             <div class="hover-content">
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                    <li><a href="{{ $product->shopee_link}}" target="_blank"><i
+                                                class="fas fa-shopping-bag"></i></a>
+                                    </li>
+                                    <li><a href="{{ $product->tokopedia_link}}" target="_blank"><i
+                                                class="fas fa-store"></i></a></li>
+                                    <li><a href="{{ $product->lazada_link}}" target="_blank"><i
+                                                class="fas fa-gem"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -86,10 +94,15 @@
                         <div class="hover-effect">
                             <div class="hover-content">
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                    <li><a href="{{ $product->shopee_link}}" target="_blank"><i
+                                                class="fas fa-shopping-bag"></i></a>
+                                    </li>
+                                    <li><a href="{{ $product->tokopedia_link}}" target="_blank"><i
+                                                class="fas fa-store"></i></a></li>
+                                    <li><a href="{{ $product->lazada_link}}" target="_blank"><i
+                                                class="fas fa-gem"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -108,10 +121,15 @@
                         <div class="hover-effect">
                             <div class="hover-content">
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                    <li><a href="{{ $product->shopee_link}}" target="_blank"><i
+                                                class="fas fa-shopping-bag"></i></a>
+                                    </li>
+                                    <li><a href="{{ $product->tokopedia_link}}" target="_blank"><i
+                                                class="fas fa-store"></i></a></li>
+                                    <li><a href="{{ $product->lazada_link}}" target="_blank"><i
+                                                class="fas fa-gem"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -130,10 +148,15 @@
                         <div class="hover-effect">
                             <div class="hover-content">
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                    <li><a href="{{ $product->shopee_link}}" target="_blank"><i
+                                                class="fas fa-shopping-bag"></i></a>
+                                    </li>
+                                    <li><a href="{{ $product->tokopedia_link}}" target="_blank"><i
+                                                class="fas fa-store"></i></a></li>
+                                    <li><a href="{{ $product->lazada_link}}" target="_blank"><i
+                                                class="fas fa-gem"></i></a></li>
                                 </ul>
                             </div>
                         </div>

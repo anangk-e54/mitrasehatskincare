@@ -18,7 +18,9 @@ class CreatePromotionsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name')->unique();
             $table->string('category')->nullable();
-            $table->string('price')->nullable();
+            $table->float('price')->nullable();
+            $table->string('disc_price')->nullable();
+            $table->string('shop_link')->nullable();
             $table->text('description')->nullable();
             $table->string('image1')->nullable();
 

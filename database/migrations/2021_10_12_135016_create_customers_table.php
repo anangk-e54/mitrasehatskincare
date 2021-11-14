@@ -20,9 +20,13 @@ class CreateCustomersTable extends Migration
             $table->string('profession')->nullable();
             $table->string('facebook')->nullable();
             $table->string('instagram')->nullable();
+            $table->string('twitter')->nullable();
             $table->text('testimonial')->nullable();
             $table->string('photo1')->nullable();
             $table->string('photo2')->nullable();
+            $table->string('photo3')->nullable();
+            $table->string('photo4')->nullable();
+            $table->string('photo5')->nullable();
 
             $table->timestamps();
             $table->softDeletes();

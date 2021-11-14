@@ -58,6 +58,20 @@
                                         placeholder="Price" required="" value="{{ $promotion->price }}">
                                 </fieldset>
                             </div>
+                            <div class=" col-lg-12 col-md-12 col-sm-12">
+                                <fieldset>
+                                    <label for="disc_price">Discount Price</label>
+                                    <input name="disc_price" type="number" class="form-control" id="disc_price"
+                                        placeholder="disc_price" required="" value="{{ $promotion->disc_price }}">
+                                </fieldset>
+                            </div>
+                            <div class=" col-lg-12 col-md-12 col-sm-12">
+                                <fieldset>
+                                    <label for="shop_link">Shop Link</label>
+                                    <input name="shop_link" type="text" class="form-control" id="shop_link"
+                                        placeholder="shop_link" required="" value="{{ $promotion->shop_link }}">
+                                </fieldset>
+                            </div>
                             <div class=" col-lg-12">
                                 <fieldset>
                                     <label for="description">Product Description</label>

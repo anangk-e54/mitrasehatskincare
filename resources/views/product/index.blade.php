@@ -34,7 +34,9 @@
             <div class="col-md-12">
                 <div class="section-heading">
                     <h2>Product List</h2>
-                    <a href="/product/create">ADD NEW PRODUCT >><i class="fa fa-angle-right"></i></a>
+                    <a href="/product/create" class="filled-button">New product
+                        <!-- <i class="fa fa-angle-right"></i> -->
+                    </a>
                 </div>
             </div>
             @foreach( $products as $product )
@@ -48,6 +50,7 @@
                         <!-- <h6>$25.75</h6> -->
                         <h5>IDR {{ $product->price }}</h5>
                         <p class="max-description">{{ $product->description}}</p>
+
                         <ul class="stars">
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>

@@ -42,10 +42,14 @@
                         consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium
                         quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis.</p>
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
+                                    class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://shopee.co.id/shop/590262280/" target="_balnk"><i
+                                    class="fas fa-shopping-bag"></i></a></li>
+                        <li><a href="https://www.tokopedia.com/mitrasehatskincare" target="_blank"><i
+                                    class="fas fa-store"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -62,29 +66,31 @@
                     <h2>Our Team Members</h2>
                 </div>
             </div>
+            @foreach( $customers as $customer )
             <div class="col-md-4">
                 <div class="team-member">
                     <div class="thumb-container">
-                        <img src="assets/images/team_01.jpg" alt="">
+                        <img src="{{ $customer->getPhoto1() }}" alt="">
                         <div class="hover-effect">
                             <div class="hover-content">
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="{{ $customer->facebook }}"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="{{ $customer->instagram }}"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="{{ $customer->twitter }}"><i class="fa fa-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="down-content">
-                        <h4>Johnny William</h4>
-                        <span>CO-Founder</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                        <h4>{{ $customer->name }}</h4>
+                        <span>{{ $customer->profession }}</span>
+                        <p class="max-description ">{{ $customer->testimonial }}</p>
+                        <a href="/customer-detail/{{ $customer->id }}" class="filled-button">View more</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            @endforeach
+            <!-- <div class="col-md-4">
                 <div class="team-member">
                     <div class="thumb-container">
                         <img src="assets/images/team_02.jpg" alt="">
@@ -105,95 +111,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="team-member">
-                    <div class="thumb-container">
-                        <img src="assets/images/team_03.jpg" alt="">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="down-content">
-                        <h4>Michael Soft</h4>
-                        <span>Chief Marketing</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="team-member">
-                    <div class="thumb-container">
-                        <img src="assets/images/team_04.jpg" alt="">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="down-content">
-                        <h4>Mary Cool</h4>
-                        <span>Product Specialist</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="team-member">
-                    <div class="thumb-container">
-                        <img src="assets/images/team_05.jpg" alt="">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="down-content">
-                        <h4>George Walker</h4>
-                        <span>Product Photographer</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="team-member">
-                    <div class="thumb-container">
-                        <img src="assets/images/team_06.jpg" alt="">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="down-content">
-                        <h4>Kate Town</h4>
-                        <span>General Manager</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                    </div>
-                </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

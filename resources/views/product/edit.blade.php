@@ -57,6 +57,27 @@
                                         placeholder="Price" required="" value="{{ $product->price }}">
                                 </fieldset>
                             </div>
+                            <div class=" col-lg-12 col-md-12 col-sm-12">
+                                <fieldset>
+                                    <label for="shopee_link">Shopee Link</label>
+                                    <input name="shopee_link" type="text" class="form-control" id="shopee_link"
+                                        placeholder="shopee_link" required="" value="{{ $product->shopee_link }}">
+                                </fieldset>
+                            </div>
+                            <div class=" col-lg-12 col-md-12 col-sm-12">
+                                <fieldset>
+                                    <label for="tokopedia_link">Tokopedia Link</label>
+                                    <input name="tokopedia_link" type="text" class="form-control" id="tokopedia_link"
+                                        placeholder="tokopedia_link" required="" value="{{ $product->tokopedia_link }}">
+                                </fieldset>
+                            </div>
+                            <div class=" col-lg-12 col-md-12 col-sm-12">
+                                <fieldset>
+                                    <label for="lazada_link">Lazada Link</label>
+                                    <input name="lazada_link" type="text" class="form-control" id="lazada_link"
+                                        placeholder="lazada_link" required="" value="{{ $product->lazada_link }}">
+                                </fieldset>
+                            </div>
                             <div class=" col-lg-12">
                                 <fieldset>
                                     <label for="description">Product Description</label>

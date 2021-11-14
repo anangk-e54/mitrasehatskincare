@@ -53,6 +53,9 @@ class ProductsController extends Controller
         $product->name = $request->name;
         $product->category = $request->category;
         $product->price = $request->price;
+        $product->shopee_link = $request->shopee_link;
+        $product->tokopedia_link = $request->tokopedia_link;
+        $product->lazada_link = $request->lazada_link;
         $product->description = $request->description;
         $product->image1 = $request->image1;
         $product->image2 = $request->image2;
@@ -131,6 +134,9 @@ class ProductsController extends Controller
         'name' => $request->name,
         'category' => $request->category,
         'price' => $request->price,
+        'shopee_link' => $request->shopee_link,
+        'tokopedia_link' => $request->tokopedia_link,
+        'lazada_link' => $request->lazada_link,
         'description' => $request->description,
         'image1' => $request->image1,
         'image2' => $request->image2,
@@ -143,6 +149,9 @@ class ProductsController extends Controller
         'name' => $request->name,
         'category' => $request->category,
         'price' => $request->price,
+        'shopee_link' => $request->shopee_link,
+        'tokopedia_link' => $request->tokopedia_link,
+        'lazada_link' => $request->lazada_link,
         'description' => $request->description
               ];
    

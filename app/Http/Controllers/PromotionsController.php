@@ -54,6 +54,8 @@ class PromotionsController extends Controller
         $promotion->name = $request->name;
         $promotion->category = $request->category;
         $promotion->price = $request->price;
+        $promotion->disc_price = $request->disc_price;
+        $promotion->shop_link = $request->shop_link;
         $promotion->description = $request->description;
         $promotion->image1 = $request->image1;
 
@@ -104,6 +106,8 @@ class PromotionsController extends Controller
             'name' => $request->name,
             'category' => $request->category,
             'price' => $request->price,
+            'disc_price' => $request->disc_price,
+            'shop_link' => $request->shop_link,
             'description' => $request->description,
             'image1' => $request->image1,
                ];
@@ -112,6 +116,8 @@ class PromotionsController extends Controller
             'name' => $request->name,
             'category' => $request->category,
             'price' => $request->price,
+            'disc_price' => $request->disc_price,
+            'shop_link' => $request->shop_link,
             'description' => $request->description
                   ];
        

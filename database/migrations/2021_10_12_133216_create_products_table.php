@@ -19,6 +19,9 @@ class CreateProductsTable extends Migration
             $table->string('name')->unique();
             $table->string('category')->nullable();
             $table->string('price')->nullable();
+            $table->string('shopee_link')->nullable();
+            $table->string('tokopedia_link')->nullable();
+            $table->string('lazada_link')->nullable();
             $table->text('description')->nullable();
             $table->string('image1')->nullable();
             $table->string('image2')->nullable();

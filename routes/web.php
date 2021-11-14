@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\PromotionsController;
+use App\Http\Controllers\CustomersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,10 +23,12 @@ Route::get('/', function () {
 
 
 Route::get('/',[PromotionsController::class, 'view']);
+// Route::view('/products','products');
 Route::get('/products',[ProductsController::class, 'view']);
 Route::get('/product-detail/{product}',[ProductsController::class, 'show']);
-// Route::view('/products','products');
-Route::view('/about','about');
+// Route::view('/about','about');
+Route::get('/about',[CustomersController::class, 'view']);
+Route::get('/customer-detail/{customer}',[CustomersController::class, 'show']);
 Route::view('/contact','contact');
 Route::view('/product/detail','homepage/productDetail');
 
@@ -46,6 +49,13 @@ Route::view('/product/detail','homepage/productDetail');
     Route::get('/promotion/{promotion}',[PromotionsController::class, 'edit'])->name('editpromotion');
     Route::post('/promotion/{promotion}',[PromotionsController::class, 'update']);
     Route::delete('/promotion/{promotion}',[PromotionsController::class, 'destroy']);
+    
+    Route::get('/customer',[CustomersController::class, 'index'])->name('customerlist');
+    Route::get('/customer/create',[CustomersController::class, 'create']);
+    Route::post('/customer/store',[CustomersController::class, 'store']);
+    Route::get('/customer/{customer}',[CustomersController::class, 'edit'])->name('editcustomer');
+    Route::post('/customer/{customer}',[CustomersController::class, 'update']);
+    Route::delete('/customer/{customer}',[CustomersController::class, 'destroy']);
 
 
     Route::view('/contact','/contact');
