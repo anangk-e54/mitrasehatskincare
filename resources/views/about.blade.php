@@ -10,8 +10,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-content">
-                    <h4>about us</h4>
-                    <h2>our company</h2>
+                    <h4>about</h4>
+                    <h2>Mitra Sehat Skincare</h2>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-6">
                 <div class="right-image">
-                    <img src="assets/images/feature-image.jpg" alt="">
+                    <img src="{{ asset('assets/images/tumbnail.jpg') }}" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -63,7 +63,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h2>Our Team Members</h2>
+                    <h2>Testimonials</h2>
                 </div>
             </div>
             @foreach( $customers as $customer )
@@ -123,10 +123,10 @@
             <div class="col-md-4">
                 <div class="service-item">
                     <div class="icon">
-                        <i class="fa fa-gear"></i>
+                        <i class="far fa-grin"></i>
                     </div>
                     <div class="down-content">
-                        <h4>Product Management</h4>
+                        <h4>Present Healty</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia
                             quaerat.</p>
                         <a href="#" class="filled-button">Read More</a>
@@ -136,10 +136,10 @@
             <div class="col-md-4">
                 <div class="service-item">
                     <div class="icon">
-                        <i class="fa fa-gear"></i>
+                        <i class="far fa-laugh-wink"></i>
                     </div>
                     <div class="down-content">
-                        <h4>Customer Relations</h4>
+                        <h4>Present Beauty</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia
                             quaerat.</p>
                         <a href="#" class="filled-button">Details</a>
@@ -149,10 +149,10 @@
             <div class="col-md-4">
                 <div class="service-item">
                     <div class="icon">
-                        <i class="fa fa-gear"></i>
+                        <i class="far fa-grin-stars"></i>
                     </div>
                     <div class="down-content">
-                        <h4>Global Collection</h4>
+                        <h4>Halal Skincare</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia
                             quaerat.</p>
                         <a href="#" class="filled-button">Read More</a>
@@ -177,9 +177,6 @@
                     <div class="client-item">
                         <img src="assets/images/client-01.png" alt="1">
                         <div class="down-content text-center">
-                            <h6>Kate Town</h6>
-                            <span>General Manager</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
                         </div>
                     </div>
 

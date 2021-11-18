@@ -77,11 +77,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="down-content">
+                    <!-- <div class="down-content">
                         <h4>Johnny William</h4>
                         <span>CO-Founder</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-3">
@@ -103,11 +103,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="down-content">
+                    <!-- <div class="down-content">
                         <h4>Karry Pitcher</h4>
                         <span>Product Expert</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-3">
@@ -129,11 +129,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="down-content">
+                    <!-- <div class="down-content">
                         <h4>Michael Soft</h4>
                         <span>Chief Marketing</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-3">
@@ -155,11 +155,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="down-content">
+                    <!-- <div class="down-content">
                         <h4>Mary Cool</h4>
                         <span>Product Specialist</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

@@ -11,6 +11,7 @@
         rel="stylesheet">
 
     <title>@yield('tittle')</title>
+    <link rel="icon" href="{{ asset('assets/images/logo.png') }}" type="image/png type">
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -19,7 +20,7 @@
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{ asset('assets/fontawesome/css/all.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/templatemo-sixteen.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.css') }}">
     @yield('stylecss')
 
@@ -41,8 +42,10 @@
     <header class="">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <h2>Mitra Sehat <em>Skincare</em></h2>
+                <a class="navbar-brand" href="/">
+                    <h2><img src="{{ asset('assets/images/logo.png') }}" class="logo-header"> Mitra Sehat
+                        <em>Skincare</em>
+                    </h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

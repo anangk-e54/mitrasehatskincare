@@ -36,7 +36,7 @@
 -->
                 <div id="map">
                     <iframe
-                        src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.2011004300684!2d112.37195739276353!3d-7.102676979354222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e778c1486f87995%3A0xc37dcef7bcbe8f9e!2sRS%20Bedah%20Mitra%20Sehat!5e0!3m2!1sid!2sid!4v1623428644986!5m2!1sid!2sid"
                         width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -47,10 +47,14 @@
                         consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic
                         elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.</p>
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
+                                    class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://shopee.co.id/shop/590262280/" target="_balnk"><i
+                                    class="fas fa-shopping-bag"></i></a></li>
+                        <li><a href="https://www.tokopedia.com/mitrasehatskincare" target="_blank"><i
+                                    class="fas fa-store"></i></a></li>
                     </ul>
                 </div>
             </div>
