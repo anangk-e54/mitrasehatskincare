@@ -64,6 +64,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="https://wa.me/6282229211313" target="_blank">Contact Support</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/logout">Logout</a>
+                        </li>
                     </ul>
                 </div>
             </div>

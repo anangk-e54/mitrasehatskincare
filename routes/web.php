@@ -39,7 +39,7 @@ Route::view('/product/detail','homepage/productDetail');
 
 
 
-// Route::middleware('auth')->group(function () {
+Route::middleware('auth')->group(function () {
 
     Route::get('/product',[ProductsController::class, 'index'])->name('productlist');
     Route::get('/product/create',[ProductsController::class, 'create']);
@@ -65,6 +65,6 @@ Route::view('/product/detail','homepage/productDetail');
 
     Route::view('/contact','/contact');
     
-    // });
+    });
     
     
