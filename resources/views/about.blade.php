@@ -169,36 +169,23 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h2>Happy Partners</h2>
+                    <h2>Our Happy Customers</h2>
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="owl-clients owl-carousel">
+                    @foreach( $customers as $customer )
                     <div class="client-item">
-                        <img src="assets/images/client-01.png" alt="1">
-                        <div class="down-content text-center">
-                        </div>
+                        <img src="{{ $customer->getPhoto1() }}" alt="1">
                     </div>
+                    @endforeach
 
+                    @foreach( $customers as $customer )
                     <div class="client-item">
-                        <img src="assets/images/client-01.png" alt="2">
+                        <img src="{{ $customer->getPhoto2() }}" alt="2">
                     </div>
+                    @endforeach
 
-                    <div class="client-item">
-                        <img src="assets/images/client-01.png" alt="3">
-                    </div>
-
-                    <div class="client-item">
-                        <img src="assets/images/client-01.png" alt="4">
-                    </div>
-
-                    <div class="client-item">
-                        <img src="assets/images/client-01.png" alt="5">
-                    </div>
-
-                    <div class="client-item">
-                        <img src="assets/images/client-01.png" alt="6">
-                    </div>
                 </div>
             </div>
         </div>

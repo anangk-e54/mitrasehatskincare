@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\PromotionsController;
 use App\Http\Controllers\CustomersController;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,10 @@ use App\Http\Controllers\CustomersController;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/login',[AuthController::class, 'login'])->name('login');
+Route ::post('/postlogin',[AuthController::class, 'postlogin']);
+Route ::get('/logout',[AuthController::class,'logout']);
 
 
 Route::get('/',[PromotionsController::class, 'view']);

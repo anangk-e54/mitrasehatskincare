@@ -41,7 +41,7 @@
     <header class="">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <h2>Mitra Sehat <em>Skincare</em></h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -62,7 +62,7 @@
                             <a class="nav-link" href="/customer">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/support">Contact Support</a>
+                            <a class="nav-link" href="https://wa.me/6282229211313" target="_blank">Contact Support</a>
                         </li>
                     </ul>
                 </div>

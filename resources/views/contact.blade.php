@@ -73,7 +73,8 @@
             </div>
             <div class="col-md-8">
                 <div class="contact-form">
-                    <form id="contact" action="" method="post">
+                    <form id="contact" action="mailto:rsbmitrasehatlamongan@gmail.com" method="post"
+                        enctype="text/plain">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <fieldset>
@@ -152,7 +153,7 @@
         </div>
     </div>
 </div>
-
+<!-- 
 <div class="happy-clients">
     <div class="container">
         <div class="row">
@@ -190,6 +191,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 @endsection

@@ -84,7 +84,7 @@
                     <div class="inner-content">
                         <p>Copyright &copy; 2021 Mitra Sehat Skincare
 
-                            - Design: <a rel="nofollow noopener" href="https://anangtrial.000webhostapp.com/"
+                            - Created by <a rel="nofollow noopener" href="https://anangtrial.000webhostapp.com/"
                                 target="_blank">NextGen Innovate</a></p>
                     </div>
                 </div>

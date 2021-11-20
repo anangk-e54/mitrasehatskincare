@@ -26,9 +26,14 @@
                 <div class="filters">
                     <ul>
                         <li class="active" data-filter="*">All Products</li>
-                        <li data-filter=".cream">Cream</li>
-                        <li data-filter=".facial">Facial</li>
-                        <li data-filter=".gra">Last Minute</li>
+                        <li data-filter=".facialwash">Facial Wash</li>
+                        <li data-filter=".handbody">Hand Body</li>
+                        <li data-filter=".daycream">Day Cream</li>
+                        <li data-filter=".nightcream">Night Cream</li>
+                        <li data-filter=".cleansing">Cleansing</li>
+                        <li data-filter=".bbglow">BB Glow</li>
+                        <li data-filter=".serum">Serum</li>
+                        <li data-filter=".toner">Toner</li>
                     </ul>
                 </div>
             </div>

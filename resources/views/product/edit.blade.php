@@ -44,9 +44,14 @@
                                     <select name="category" type="text" class="form-control" id="category"
                                         placeholder="Product Category" required="">
                                         <option value="{{ $product->category }}">{{ $product->category }}</option>
-                                        <option value="cream"> Cream </option>
-                                        <option value="facial"> Facial </option>
-                                        <option value="body"> Body </option>
+                                        <option value="facialwash"> facialwash </option>
+                                        <option value="handbody"> handbody </option>
+                                        <option value="daycream"> daycream </option>
+                                        <option value="nightcream"> nightcream </option>
+                                        <option value="cleansing"> cleansing </option>
+                                        <option value="bbglow"> bbglow </option>
+                                        <option value="serum"> serum </option>
+                                        <option value="toner"> toner </option>
                                     </select>
                                 </fieldset>
                             </div>
