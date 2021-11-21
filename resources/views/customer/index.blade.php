@@ -10,15 +10,15 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-content">
-                    <h4>about us</h4>
-                    <h2>our company</h2>
+                    <!-- <h4>Mitra Sehat Skincare</h4> -->
+                    <h2>Manage Testimonials</h2>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-
+<!-- 
 <div class="best-features about-features">
     <div class="container">
         <div class="row">
@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <div class="team-members">
@@ -124,7 +124,7 @@
     </div>
 </div>
 
-
+<!-- 
 <div class="services">
     <div class="container">
         <div class="row">
@@ -170,8 +170,8 @@
         </div>
     </div>
 </div>
-
-
+ -->
+<!-- 
 <div class="happy-clients">
     <div class="container">
         <div class="row">
@@ -214,6 +214,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 @endsection

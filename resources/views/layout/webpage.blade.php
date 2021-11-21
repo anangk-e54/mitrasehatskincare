@@ -92,6 +92,31 @@
         </div>
     </footer>
 
+    <!-- Autoload Modal for unpaid project start here-->
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <!-- Modal -->
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header  bg-warning">
+                    <h5 class="modal-title" id="staticBackdropLabel">Caution !</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    This website is unofficial release version. it's just for preview to you, who are owner of this
+                    website.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://wa.me/6281217217206" class="btn btn-primary" target="_blank">contact support</a>
+                </div>
+            </div>
+        </div>
+        <!-- end modal -->
+    </div>
+    <!-- Autoload Modal for unpaid project end here-->
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
@@ -118,6 +143,12 @@
     }
     </script>
 
+    <!-- Autoload Modal -->
+    <script>
+    $(document).ready(function() {
+        $('#myModal').modal('show');
+    });
+    </script>
 
 </body>
 

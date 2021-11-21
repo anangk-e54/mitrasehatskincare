@@ -85,13 +85,13 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h2>About Mitra Sehat Skincare</h2>
+                    <!-- <h2>About Mitra Sehat Skincare</h2> -->
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="left-content">
                     <h4>Looking for the best products?</h4>
-                    <p><a rel="nofollow" href="https://wa.me/6282229211313" target="_parent">This
+                    <!-- <p><a rel="nofollow" href="https://wa.me/6282229211313" target="_parent">This
                             template</a> is free to use for your business websites. However, you have no permission to
                         redistribute the downloadable ZIP file on any template collection website. <a rel="nofollow"
                             href="https://wa.me/6282229211313" target="_blank">Contact us</a> for more info.</p>
@@ -101,7 +101,12 @@
                         <li><a href="#">It aquecorporis nulla aspernatur</a></li>
                         <li><a href="#">Corporis, omnis doloremque</a></li>
                         <li><a href="#">Non cum id reprehenderit</a></li>
-                    </ul>
+                    </ul> -->
+                    <p>Mitra Sehat Skin Care merupakan bentuk kami untuk memaksimalkan cantik dan sehat bagi semua
+                        orang. Mitra Sehat Skin Care berkomitmen untuk menjadikan Cantik dan Sehat mampu dilakukan dan
+                        didapatkan bagi semua orang, baik Wanita maupun Pria di Indonesia. Pelayanan dan Kualitas Produk
+                        menjadi focus kami agar mampu menyebarkan semangat Cantik dan Sehat kepada semua orang, karena
+                        Sehat adalah Cantik yang sesungguhnya.</p>
                     <a href="/about" class="filled-button">Read More</a>
                 </div>
             </div>
@@ -136,5 +141,6 @@
         </div>
     </div>
 </div>
+
 
 @endsection

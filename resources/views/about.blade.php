@@ -34,13 +34,12 @@
             </div>
             <div class="col-md-6">
                 <div class="left-content">
-                    <h4>Who we are &amp; What we do?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur
-                        similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem
-                        perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
-                        consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium
-                        quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis.</p>
+                    <h4>Mitra Sehat Skincare</h4>
+                    <p>Mitra Sehat Skin Care merupakan bentuk kami untuk memaksimalkan cantik dan sehat bagi semua
+                        orang. Mitra Sehat Skin Care berkomitmen untuk menjadikan Cantik dan Sehat mampu dilakukan dan
+                        didapatkan bagi semua orang, baik Wanita maupun Pria di Indonesia. Pelayanan dan Kualitas Produk
+                        menjadi focus kami agar mampu menyebarkan semangat Cantik dan Sehat kepada semua orang, karena
+                        Sehat adalah Cantik yang sesungguhnya.</p>
                     <ul class="social-icons">
                         <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                         <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
@@ -123,39 +122,42 @@
             <div class="col-md-4">
                 <div class="service-item">
                     <div class="icon">
-                        <i class="far fa-grin"></i>
+                        <i class="fas fa-store-alt"></i>
                     </div>
                     <div class="down-content">
-                        <h4>Present Healty</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia
+                        <h4>Branch Name</h4>
+                        <p>Address Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla
+                            at quia
                             quaerat.</p>
-                        <a href="#" class="filled-button">Read More</a>
+                        <a href="#" class="filled-button">Visit Store</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-item">
                     <div class="icon">
-                        <i class="far fa-laugh-wink"></i>
+                        <i class="fas fa-store-alt"></i>
                     </div>
                     <div class="down-content">
-                        <h4>Present Beauty</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia
+                        <h4>Branch Name</h4>
+                        <p>Address Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla
+                            at quia
                             quaerat.</p>
-                        <a href="#" class="filled-button">Details</a>
+                        <a href="#" class="filled-button">Visit Store</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-item">
                     <div class="icon">
-                        <i class="far fa-grin-stars"></i>
+                        <i class="fas fa-store-alt"></i>
                     </div>
                     <div class="down-content">
-                        <h4>Halal Skincare</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia
+                        <h4>Branch Name</h4>
+                        <p>Address Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla
+                            at quia
                             quaerat.</p>
-                        <a href="#" class="filled-button">Read More</a>
+                        <a href="#" class="filled-button">Visit Store</a>
                     </div>
                 </div>
             </div>

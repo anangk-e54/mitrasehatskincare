@@ -64,7 +64,7 @@
                         </div>
 
                         <div>
-                            <a href="#" class="txt1">
+                            <a href="https://wa.me/6282229211313" class="txt1">
                                 Forgot Password?
                             </a>
                         </div>

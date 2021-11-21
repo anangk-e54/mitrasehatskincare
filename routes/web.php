@@ -63,7 +63,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/customer/{customer}',[CustomersController::class, 'destroy']);
 
 
-    Route::view('/contact','/contact');
+    // Route::view('/contact','/contact');
     
     });
     

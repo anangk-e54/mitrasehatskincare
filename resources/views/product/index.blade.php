@@ -8,20 +8,20 @@
     <div class="owl-banner owl-carousel">
         <div class="banner-item-01">
             <div class="text-content">
-                <h4>Best Offer</h4>
-                <h2>New Arrivals On Sale</h2>
+                <!-- <h4>Mitra Sehat Skincare</h4> -->
+                <h2>Manage Product</h2>
             </div>
         </div>
         <div class="banner-item-02">
             <div class="text-content">
-                <h4>Flash Deals</h4>
-                <h2>Get your best products</h2>
+                <!-- <h4>Mitra Sehat Skincare</h4> -->
+                <h2>Manage Product</h2>
             </div>
         </div>
         <div class="banner-item-03">
             <div class="text-content">
-                <h4>Last Minute</h4>
-                <h2>Grab last minute deals</h2>
+                <!-- <h4>Mitra Sehat Skincare</h4> -->
+                <h2>Manage Products</h2>
             </div>
         </div>
     </div>
@@ -84,12 +84,12 @@
     </div>
 </div>
 
-<div class="best-features">
+<!-- <div class="best-features">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h2>About Sixteen Clothing</h2>
+                    <h2>About Mitra Sehat Skincare</h2>
                 </div>
             </div>
             <div class="col-md-6">
@@ -116,7 +116,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <div class="call-to-action">
@@ -126,12 +126,12 @@
                 <div class="inner-content">
                     <div class="row">
                         <div class="col-md-8">
-                            <h4>Creative &amp; Unique <em>Nexgen</em> Products</h4>
+                            <h4>Creative &amp; Design by <em>Nexgen</em> Creative</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite
                                 author nulla.</p>
                         </div>
                         <div class="col-md-4">
-                            <a href="/products" class="filled-button">Purchase Now</a>
+                            <a href="https://wa.me/6281217217206" class="filled-button">Contact Support</a>
                         </div>
                     </div>
                 </div>
