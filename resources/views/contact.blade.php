@@ -42,10 +42,12 @@
             </div>
             <div class="col-md-4">
                 <div class="left-content">
-                    <h4>About our office</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester
-                        consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic
-                        elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.</p>
+                    <h4>Mitra Sehat Skincare</h4>
+                    <p>Mitra Sehat Skin Care merupakan bentuk kami untuk memaksimalkan cantik dan sehat bagi semua
+                        orang. Mitra Sehat Skin Care berkomitmen untuk menjadikan Cantik dan Sehat mampu dilakukan dan
+                        didapatkan bagi semua orang, baik Wanita maupun Pria di Indonesia. Pelayanan dan Kualitas Produk
+                        menjadi focus kami agar mampu menyebarkan semangat Cantik dan Sehat kepada semua orang, karena
+                        Sehat adalah Cantik yang sesungguhnya.</p>
                     <ul class="social-icons">
                         <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                         <li><a href="https://www.instagram.com/mitrasehat.skincare/" target="_blank"><i
